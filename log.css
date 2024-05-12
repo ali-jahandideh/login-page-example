@@ -30,6 +30,12 @@ body{
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'PoetsenOne-Regular';
+    src: url(fonts/PoetsenOne-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
 .box_b h1{
     text-align: center;
@@ -42,11 +48,12 @@ body{
 }
 
 .box_b h4{
+    font-family: 'PoetsenOne-Regular';
     text-align: center;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     text-transform: capitalize;
     letter-spacing: 4px;
-    font-weight: 100;
+    /* font-weight: 100; */
     color: #555;
 }
 
@@ -58,6 +65,7 @@ body{
 }
 
 .fields_f input{
+    font-family: 'PoetsenOne-Regular';
     width: 100%;
     height: 40px;
     padding-left: 10px;
@@ -71,16 +79,21 @@ body{
 }
 
 .log_button button{
+    font-family: 'PoetsenOne-Regular';
     width: 100%;
     height: 40px;
+    font-size: 1rem;
     border-radius: 35px;
     border: none;
     outline: none;
     margin: 40px 20px 40px 25px;
     background-color: #6ab3f6;
-    box-shadow: 2px 2px 4px #c4c4c4,
-    -2px -2px 4px #f2f2f2;
-    transition: all 0.25s;
+    box-shadow: 2px 2px 4px #c4c4c4,    -2px -2px 4px #f2f2f2;
+    transition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
 }
 
 .log_button button:hover{
@@ -93,16 +106,17 @@ body{
 
 .link{
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'PoetsenOne-Regular';
+    font-size: 0.9rem;
 }
 
 .link a{
-    color: #555;
+    color: #888;
     text-decoration: none;
 }
 
 .link a:hover{
-    color: #888;
+    color: #029ce4;
     text-shadow: 1px 1px 2px #f2f2f2,
     -1px -1px 2px #fff;
 }
